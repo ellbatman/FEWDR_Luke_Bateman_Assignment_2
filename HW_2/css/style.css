@@ -78,9 +78,6 @@ body {
 			justify-content: space-between;
 
 			text-align: justify;
-			overflow: hidden;   /*makes the body non-scrollable (we will add scrolling to the sidebar and main content containers)*/
-
-			flex-grow: 1;  /*ensures that the container will take up the full height of the parent container*/
 
 		}
 
@@ -171,27 +168,27 @@ body {
 			text-decoration: none;
 			margin-top: 50px;
 
-		 	display: flex;
+		  display: flex;
 			flex-direction: column;
 			justify-content: center;
 		}
 
-				a {
+				footer a {
 					font-weight: bold;
 					text-decoration: none;
 					color:#44545E;
 				}
 
-				a:visited {
+				footer a:visited {
 					color:#44545E;
 				}
 
-				a:hover {
+				footer a:hover {
 					color: #7B98AA;
 				}
 
 				.logos a {
-					margin: 0 15px 30px 15px;
+					margin: 30px 15px 30px 15px;
 
 				}
 
